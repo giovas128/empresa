@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #c4e6fb;
+    color: black;
+}
+
+.esquina-imagen {
+    position: absolute;
+    top: 20px;
+    right: 60px;
+    width: 100px;
+    height: auto;
+}
+
+/* Otros estilos... */
+
+header {
+    background-color: #57c0ff; /* Barra del título */
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #57c0ff; /* Línea debajo del título */
+}
+
+ul {
+    list-style-type: none; /* Sin viñetas */
+    padding-left: 0;
+}
+
+.social-media {
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Reducir tamaño del encabezado principal */
+    }
+
+    h2 {
+        font-size: 1.5em; /* Reducir tamaño del encabezado secundario */
+    }
+
+    main {
+        padding: 10px; /* Reducir el padding del main */
+    }
+
+    section {
+        margin-bottom: 20px; /* Reducir margen entre secciones */
+    }
+}
